@@ -1,38 +1,139 @@
 <html>
     <head>
-        <title>
-            ABOUT ME
-        </title>
+        <title>Naura's Portfolio</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            header {
+                background-color: #4c59af;
+                padding: 20px;
+                text-align: center;
+                color: white;
+            }
+            h2 {
+                margin: 0;
+            }
+            h3 {
+                margin: 10px;
+            }
+            p {
+                margin: 10px;
+            }
+            table {
+                width: 100%;
+                margin: 20px 0;
+                border-collapse: collapse;
+            }
+            td, th {
+                padding: 10px;
+                border: 1px solid black;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            a {
+                color: #182cb4;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                margin-top: 20px;
+            }
+            .social-media td {
+                padding: 20px;
+                text-align: center;
+            }
+            .skills, .experience, .contact {
+                margin: 20px 0;
+                text-align: left;
+            }
+            .about-me, .education{
+                text-align: justify;
+            }
+        </style>
     </head>
     <body>
-        <h1>Halo Semuanya</h1>
+        <header>
+            <h2>Welcome to My Portfolio</h2>
+        </header>
         <table>
-            <TR>
-                <TD colspan="4"><h2>Welcome to my Portfolio</h2></TD>
-            </TR>
-            <TR>
-                <TD  style= "border: solid 1px black;">R2C1</TD>
-                <TD  style= "border: solid 1px black;">R2C2</TD>
-                <TD  style= "border: solid 1px black;">R2C3</TD>
-                <TD  style= "border: solid 1px black;">R2C4</TD>
-            </TR>
-            <TR>
-                <TD  style= "border: solid 1px black;">
-                    <img src="Naura.JPG" alt="Naura" style="width:300px;height:350px;">
-                </TD>
-                <TD  style= "border: solid 1px black;" colspan="4">
+            <tr class="social-media">
+                <td><a href="https://www.instagram.com/nauraysmnn_/">Instagram</a></td>
+                <td><a href="https://www.linkedin.com/in/hana-kamila-naura/">LinkedIn</a></td>
+                <td><a href="https://github.com/hanakamilanaura">Github</a></td>
+                <td><a href="https://medium.com/@naurayasmin" style="text-align:center;">Medium</a></td>
+            </tr>
+            <tr>
+                <td colspan="1">
+                    <img src="Naura.JPG" alt="Naura's Picture" style="width: 420px;height:300px;">
+                </td>
+                <td colspan="3">
                     <h3>About Me</h3>
-                    Hello everyone I am a 3rd-year student at Telkom University student majoring in Information Systems who has an interest in technology,
-                    especially in UX design I once worked on a website project using the Node-React programming language. I've participated in
-                    several UI/UX competitions to measure how good I am in this field. On the side, I also learned about web development.
-                    Besides that, I have quite good communication skills. According to my ability and experience, I am a person who can work with a team.
-                </TD>
-            </TR>
-            <TR>
-                <TD  style= "border: solid 1px black;">R4C1</TD>
-                <TD  style= "border: solid 1px black;" colspan="2">R4C2</TD>
-                <TD  style= "border: solid 1px black;">R4C3</TD>
-            </TR>
+                    <p>
+                        Hello everyone! I am a 3rd-year student at Telkom University majoring in Information Systems with a strong interest in technology, especially in UX design. 
+                        I have worked on various projects, including developing a website using Node-React. 
+                        I have participated in several UI/UX competitions to challenge myself and improve my skills. 
+                        On the side, I am also learning web development, and I possess good communication skills, which help me work effectively in teams.
+                    </p>
+                    <h3>Education</h3>
+                    <ul>
+                        <li>SMK Telkom Malang (2019-2022)</li>
+                        <li>Telkom University (Now)</li>
+                    </ul>
+                </td>
+            </tr>
         </table>
+
+        <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>UI/UX Design (Figma, Adobe XD)</li>
+                <li>Web Development (HTML, CSS, JavaScript, Node.js, React)</li>
+                <li>Project Management (Agile, Scrum)</li>
+                <li>Communication & Teamwork</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h3>Experience</h3>
+            <ul>
+                <li>UI/UX Designer Intern at PT. Otak Kanan - 2021</li>
+                <li>Social Media Specialist at Neoma Pixel - 2024</li>
+                <li>Leadership and Coordination in AIESEC Bandung & SEARCH Tel U</li>
+                <li>Project Leader ERP Mini Contest</li>
+            </ul>
+        </section>
+
+        <table>
+            <tr>
+                <td>
+                    <img src="portfolio content 1.png" alt="Portfolio Content 1" style="width:400px;height:250px;">
+                </td>
+                <td colspan="2">
+                    <img src="portfolio cover.png" alt="Portfolio Cover" style="width:860px;height:250px;">
+                </td>
+                <td>
+                    <img src="portfolio content 2.png" alt="Portfolio Content 2" style="width:400px;height:250px;">
+                </td>
+            </tr>
+        </table>
+
+        <section class="contact">
+            <h3>Contact</h3>
+            <p>Email: <a href="email:naurayasmin@gmail.com">naurayasmin@gmail.com</a></p>
+        </section>
+        <footer>
+            <p>Naura Yasmin's Copyright</p>
+        </footer>
     </body>
 </html>
